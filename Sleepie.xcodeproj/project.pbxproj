@@ -11,19 +11,8 @@
 		4E0A097A1B28B66D0093EBB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A09791B28B66D0093EBB8 /* main.m */; };
 		4E0A097C1B28B66D0093EBB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0A097B1B28B66D0093EBB8 /* Images.xcassets */; };
 		4E0A097F1B28B66E0093EBB8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0A097D1B28B66E0093EBB8 /* MainMenu.xib */; };
-		4E0A098B1B28B66E0093EBB8 /* SleepieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A098A1B28B66E0093EBB8 /* SleepieTests.m */; };
 		4EEA68581B29608D00205E6F /* GGTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA68571B29608D00205E6F /* GGTimer.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4E0A09851B28B66E0093EBB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4E0A09691B28B66D0093EBB8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4E0A09701B28B66D0093EBB8;
-			remoteInfo = Sleepie;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4E0A09711B28B66D0093EBB8 /* Sleepie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sleepie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,22 +22,12 @@
 		4E0A09791B28B66D0093EBB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E0A097B1B28B66D0093EBB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4E0A097E1B28B66E0093EBB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		4E0A09841B28B66E0093EBB8 /* SleepieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E0A09891B28B66E0093EBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E0A098A1B28B66E0093EBB8 /* SleepieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepieTests.m; sourceTree = "<group>"; };
 		4EEA68561B29608D00205E6F /* GGTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTimer.h; sourceTree = "<group>"; };
 		4EEA68571B29608D00205E6F /* GGTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4E0A096E1B28B66D0093EBB8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E0A09811B28B66E0093EBB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				4E0A09731B28B66D0093EBB8 /* Sleepie */,
-				4E0A09871B28B66E0093EBB8 /* SleepieTests */,
 				4E0A09721B28B66D0093EBB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				4E0A09711B28B66D0093EBB8 /* Sleepie.app */,
-				4E0A09841B28B66E0093EBB8 /* SleepieTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,23 +76,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4E0A09871B28B66E0093EBB8 /* SleepieTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E0A098A1B28B66E0093EBB8 /* SleepieTests.m */,
-				4E0A09881B28B66E0093EBB8 /* Supporting Files */,
-			);
-			path = SleepieTests;
-			sourceTree = "<group>";
-		};
-		4E0A09881B28B66E0093EBB8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E0A09891B28B66E0093EBB8 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,24 +96,6 @@
 			productReference = 4E0A09711B28B66D0093EBB8 /* Sleepie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4E0A09831B28B66E0093EBB8 /* SleepieTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E0A09911B28B66E0093EBB8 /* Build configuration list for PBXNativeTarget "SleepieTests" */;
-			buildPhases = (
-				4E0A09801B28B66E0093EBB8 /* Sources */,
-				4E0A09811B28B66E0093EBB8 /* Frameworks */,
-				4E0A09821B28B66E0093EBB8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4E0A09861B28B66E0093EBB8 /* PBXTargetDependency */,
-			);
-			name = SleepieTests;
-			productName = SleepieTests;
-			productReference = 4E0A09841B28B66E0093EBB8 /* SleepieTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,10 +107,6 @@
 				TargetAttributes = {
 					4E0A09701B28B66D0093EBB8 = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					4E0A09831B28B66E0093EBB8 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 4E0A09701B28B66D0093EBB8;
 					};
 				};
 			};
@@ -186,7 +124,6 @@
 			projectRoot = "";
 			targets = (
 				4E0A09701B28B66D0093EBB8 /* Sleepie */,
-				4E0A09831B28B66E0093EBB8 /* SleepieTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +135,6 @@
 			files = (
 				4E0A097C1B28B66D0093EBB8 /* Images.xcassets in Resources */,
 				4E0A097F1B28B66E0093EBB8 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E0A09821B28B66E0093EBB8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,23 +151,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E0A09801B28B66E0093EBB8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E0A098B1B28B66E0093EBB8 /* SleepieTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4E0A09861B28B66E0093EBB8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4E0A09701B28B66D0093EBB8 /* Sleepie */;
-			targetProxy = 4E0A09851B28B66E0093EBB8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4E0A097D1B28B66E0093EBB8 /* MainMenu.xib */ = {
@@ -354,42 +268,6 @@
 			};
 			name = Release;
 		};
-		4E0A09921B28B66E0093EBB8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SleepieTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sleepie.app/Contents/MacOS/Sleepie";
-			};
-			name = Debug;
-		};
-		4E0A09931B28B66E0093EBB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SleepieTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sleepie.app/Contents/MacOS/Sleepie";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -407,15 +285,6 @@
 			buildConfigurations = (
 				4E0A098F1B28B66E0093EBB8 /* Debug */,
 				4E0A09901B28B66E0093EBB8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4E0A09911B28B66E0093EBB8 /* Build configuration list for PBXNativeTarget "SleepieTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4E0A09921B28B66E0093EBB8 /* Debug */,
-				4E0A09931B28B66E0093EBB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
