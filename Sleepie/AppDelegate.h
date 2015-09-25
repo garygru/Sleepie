@@ -7,9 +7,23 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "GGTimer.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+	
+	GGTimer *sleepTimer;
+	
+	__weak IBOutlet NSTextField *hourLabel;
+	__weak IBOutlet NSTextField *minuteLabel;
+	__weak IBOutlet NSTextField *secondsLabel;
+}
 
+
+- (IBAction)StartTimer:(id)sender;
+- (IBAction)stopTimer:(id)sender;
+- (void)updateTimeLabels:(double)remainingSeconds;
+- (void)setLabelsEditable:(BOOL)editable;
 
 @end
 
