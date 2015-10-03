@@ -17,7 +17,6 @@
 	__weak IBOutlet NSTextField *hourLabel;
 	__weak IBOutlet NSTextField *minuteLabel;
 	__weak IBOutlet NSTextField *secondsLabel;
-	
 }
 
 

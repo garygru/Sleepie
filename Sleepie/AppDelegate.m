@@ -39,10 +39,8 @@
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
 {
-	for (NSWindow *win in[NSApp windows]) {
-		if ([win isVisible]) {
-			return NO;
-		}
+	if ([[self window] isVisible]) {
+		return NO;
 	}
 	return YES;
 }
