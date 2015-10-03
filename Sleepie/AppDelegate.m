@@ -39,8 +39,14 @@
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
 {
+	for (NSWindow *win in[NSApp windows]) {
+		if ([win isVisible]) {
+			return NO;
+		}
+	}
 	return YES;
 }
+
 
 - (IBAction)StartTimer:(id)sender
 {

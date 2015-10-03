@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <development version="6300" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
@@ -687,6 +687,7 @@
                             <subviews>
                                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9iZ-I7-987">
                                     <rect key="frame" x="123" y="5" width="54" height="44"/>
+                                    <animations/>
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" refusesFirstResponder="YES" allowsUndo="NO" placeholderString="00" usesSingleLineMode="YES" id="DrZ-VV-1Y0">
                                         <numberFormatter key="formatter" formatterBehavior="custom10_4" localizesFormat="NO" allowsFloats="NO" usesGroupingSeparator="NO" paddingCharacter="0" formatWidth="1" roundingMode="floor" groupingSize="0" minimumIntegerDigits="2" maximumIntegerDigits="3" id="zYX-7f-epZ">
                                             <real key="minimum" value="0.0"/>
@@ -702,6 +703,7 @@
                                 </textField>
                                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nYF-vv-4zF">
                                     <rect key="frame" x="65" y="5" width="54" height="44"/>
+                                    <animations/>
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" refusesFirstResponder="YES" allowsUndo="NO" placeholderString="00" usesSingleLineMode="YES" id="nzY-Wq-JIb" userLabel="Text Field Cell">
                                         <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" paddingCharacter="0" formatWidth="1" roundingMode="floor" groupingSize="0" minimumIntegerDigits="2" maximumIntegerDigits="3" id="2Ov-g5-cj9">
                                             <real key="minimum" value="0.0"/>
@@ -714,6 +716,7 @@
                                 </textField>
                                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vth-aG-VQX">
                                     <rect key="frame" x="5" y="4" width="54" height="44"/>
+                                    <animations/>
                                     <textFieldCell key="cell" lineBreakMode="truncatingHead" selectable="YES" editable="YES" refusesFirstResponder="YES" allowsUndo="NO" placeholderString="00" usesSingleLineMode="YES" id="Ybf-Hg-7Dh">
                                         <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" paddingCharacter="0" formatWidth="1" roundingMode="floor" groupingSize="0" minimumIntegerDigits="2" maximumIntegerDigits="3" id="Ihu-pZ-Gt0">
                                             <real key="minimum" value="0.0"/>
@@ -728,12 +731,15 @@
                                     <accessibility description="hours"/>
                                 </textField>
                             </subviews>
+                            <animations/>
                         </view>
+                        <animations/>
                         <color key="borderColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <color key="fillColor" red="0.75268308080000002" green="0.75268308080000002" blue="0.75268308080000002" alpha="0.0" colorSpace="calibratedRGB"/>
                     </box>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Tf-sq-dJN">
                         <rect key="frame" x="71" y="48" width="16" height="44"/>
+                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" title=":" id="wtr-WL-u8u">
                             <font key="font" metaFont="system" size="36"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -741,7 +747,8 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKH-NX-ca2">
-                        <rect key="frame" x="125" y="48" width="20" height="44"/>
+                        <rect key="frame" x="129" y="48" width="20" height="44"/>
+                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" title=":" id="KYo-XM-0fL">
                             <font key="font" metaFont="system" size="36"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -750,6 +757,7 @@
                     </textField>
                     <button toolTip="Run timer" verticalHuggingPriority="750" fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="ryY-Ec-Cxr">
                         <rect key="frame" x="101" y="13" width="96" height="32"/>
+                        <animations/>
                         <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="te6-Ae-X00">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -761,6 +769,7 @@
                     </button>
                     <button toolTip="reuse last time" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Pu-QS-fwb">
                         <rect key="frame" x="14" y="13" width="96" height="32"/>
+                        <animations/>
                         <buttonCell key="cell" type="push" title="Abort" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="GS1-gu-kOE">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -771,6 +780,7 @@
                         </connections>
                     </button>
                 </subviews>
+                <animations/>
             </view>
             <point key="canvasLocation" x="20.5" y="291"/>
         </window>

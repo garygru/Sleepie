@@ -3,61 +3,61 @@
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "SLEEPIE16.png",
+      "filename" : "SLEEPIEICON-9.png",
       "scale" : "1x"
     },
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "SLEEPIE32.png",
+      "filename" : "SLEEPIEICON-8.png",
       "scale" : "2x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "SLEEPIE32-1.png",
+      "filename" : "SLEEPIEICON-2.png",
       "scale" : "1x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "SLEEPIE64.png",
+      "filename" : "SLEEPIEICON-3.png",
       "scale" : "2x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "SLEEPIE128.png",
+      "filename" : "SLEEPIEICON-4.png",
       "scale" : "1x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "SLEEPIE256.png",
+      "filename" : "SLEEPIEICON-5.png",
       "scale" : "2x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "SLEEPIE256-1.png",
+      "filename" : "SLEEPIEICON-6.png",
       "scale" : "1x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "SLEEPIE512.png",
+      "filename" : "SLEEPIEICON-7.png",
       "scale" : "2x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "SLEEPIE512-1.png",
+      "filename" : "SLEEPIEICON-1.png",
       "scale" : "1x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "SLEEPIE1024.png",
+      "filename" : "SLEEPIEICON.png",
       "scale" : "2x"
     }
   ],
